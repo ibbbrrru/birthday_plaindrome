@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Bangers&family=Exo&family=Fugaz+One&family=Mansalva&family=Montserrat+Alternates&family=Montserrat:wght@400;700&family=Rampart+One&family=Sriracha&display=swap');
+
+body {
+    background: url("image.jpg");
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    background-attachment: fixed;
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+    /* position: relative; */
+    /* text-align: center;
+    background-position: center; */
+}
+
+h1:hover {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0 0 5px black, 0 0 1px black;
+    color: #d946ef;
+}
+
+/* .container {
+    width: 50%;
+} */
+
+input,
+label {
+    display: block;
+    text-align: center;
+    text-shadow: 0 0 5px white, 0 0 1px white;
+}
+
+input:hover {
+    background-color: #d946ef;
+}
+
+input {
+    display: block;
+    width: 30%;
+    height: 3vh;
+    max-width: 600px;
+    margin: auto;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: transparent;
+}
+
+#show-btn {
+    font-family: 'Fugaz One', cursive;
+    display: block;
+    margin: auto;
+    background: transparent;
+    color: #be123c;
+    border-color: #be123c;
+    border-width: thick;
+    padding: 0.6rem 1rem;
+    border-radius: 0.7rem;
+    text-shadow: 0 0 5px white, 0 0 1px white;
+}
+
+#show-btn:hover {
+    background-color: #d946ef;
+}
+
+#result {
+    animation-name: slidein;
+    animation-duration: 1s;
+    text-align: center;
+    text-shadow: 0 0 5px white, 0 0 1px white;
+    color: #be123c;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+#result:hover {
+    color: #d946ef;
+}
